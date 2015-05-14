@@ -2,7 +2,7 @@
 
 
 
-1. L'installation :
+1. Installation :
 	
 	Dans le site mycms :
 

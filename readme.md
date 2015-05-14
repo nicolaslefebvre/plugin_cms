@@ -1,4 +1,6 @@
-<p style="text-align:center";>#PLUGIN : ADMIN LOGIN#</p>
+#PLUGIN : ADMIN LOGIN#
+
+
 
 	1. L'installation : 
 	
@@ -6,15 +8,17 @@ Dans le site mycms :
 * Put file *pluginsAdmin* in the site root.
 
 * Add the code'line in the file *view/admin/layout/bottom.inc*.
-    <span style="color: #fb4141"><script type="text/javascript" src="pluginsAdmin/ajax/deconnexion.js"></script></span>
+
+	<script type="text/javascript" src="pluginsAdmin/ajax/deconnexion.js"></script>
 
 * Add the code'line in the file *view/back/layout/top.inc.php* in the menu (below *ajouter*) to add user management .
-    <span style="color: #fb4141"><?php include ("./pluginsAdmin/view/monCompte.php"); ?></script></span>
+
+	<?php include ("./pluginsAdmin/view/monCompte.php"); ?></script>
 
 * Replace the current file *admin* by the plugin file .
 
 
-	2. His role: 
+	2. His role : 
 
 On first use, you will be asked to create a superadmin account, which will create the admin table (pseudo ( primary key ) , password, and email ), and the superadmin account.
 

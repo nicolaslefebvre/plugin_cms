@@ -18,6 +18,8 @@ Dans le site mycms :
 * Replace the current file *admin* by the plugin file .
 
 
+
+
 	2. His role : 
 
 On first use, you will be asked to create a superadmin account, which will create the admin table (pseudo ( primary key ) , password, and email ), and the superadmin account.

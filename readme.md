@@ -9,11 +9,11 @@ Dans le site mycms :
 
 * Add the code'line in the file *view/admin/layout/bottom.inc*.
 
-    <script type="text/javascript" src="pluginsAdmin/ajax/deconnexion.js"></script>
+    `<script type="text/javascript" src="pluginsAdmin/ajax/deconnexion.js"></script>`
 
 * Add the code'line in the file *view/back/layout/top.inc.php* in the menu (below *ajouter*) to add user management .
 
-    `<?php include ("./pluginsAdmin/view/monCompte.php"); ?></script>`
+    `<?php include ("./pluginsAdmin/view/monCompte.php"); ?></script>
 
 * Replace the current file *admin* by the plugin file .
 

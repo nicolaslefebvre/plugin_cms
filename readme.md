@@ -4,7 +4,7 @@
 
 1. Installation :
 	
-	Dans le site mycms :
+	On the website mycms :
 
 	* Put file **pluginsAdmin** in the site root.
 

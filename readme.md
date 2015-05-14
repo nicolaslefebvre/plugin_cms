@@ -13,7 +13,7 @@ Dans le site mycms :
 
 * Add the code'line in the file *view/back/layout/top.inc.php* in the menu (below *ajouter*) to add user management .
 
-    <?php include ("./pluginsAdmin/view/monCompte.php"); ?></script>
+    `<?php include ("./pluginsAdmin/view/monCompte.php"); ?></script>`
 
 * Replace the current file *admin* by the plugin file .
 

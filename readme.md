@@ -8,11 +8,11 @@ Dans le site mycms :
 
 	* Put file *pluginsAdmin* in the site root.
 
-	* Add the code'line in the file **view/admin/layout/bottom.inc**.
+	* Add the code'line in the file *view/admin/layout/bottom.inc*.
 
    `<script type="text/javascript" src="pluginsAdmin/ajax/deconnexion.js"></script>`
 
-	* Add the code'line in the file **view/back/layout/top.inc.php** in the menu (below **ajouter**) to add user management.
+	* Add the code'line in the file *view/back/layout/top.inc.php* in the menu (below *ajouter*) to add user management.
 
    `<?php include ("./pluginsAdmin/view/monCompte.php"); ?></script>`
 

@@ -6,7 +6,7 @@
 	
 Dans le site mycms :
 
-	* Put file **pluginsAdmin** in the site root.
+	* Put file _pluginsAdmin_ in the site root.
 
 	* Add the code'line in the file **view/admin/layout/bottom.inc**.
 

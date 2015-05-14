@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>My CMS</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/superhero/bootstrap.min.css">
+	
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<header class="col-md-12 page-header alert alert-info">
+			<h1>PLUGIN : ADMIN LOGIN</h1>
+		</header>
+		<div class="col-md-12">
+			<div class="col-md-2 label label-success">
+				<h2>Installation : </h2>
+			</div>
+			<div class="col-md-10"></div>
+
+			<div class="col-md-12">
+			</br>
+			<p>On the website mycms :</p>
+			</br>
+			<ol>
+				<li>Put file pluginsAdmin in the site root.</li></br>
+				<li>Add the code line in the file view/admin/layout/bottom.inc.</li></br>
+					<pre><code>
+		&lt;script type="text/javascript" src="pluginsAdmin/ajax/deconnexion.js"&gt;&lt;/script&gt;
+					</code></pre></br>
+				<li>Add the code'line in the file view/back/layout/top.inc.php in the menu (below ajouter) to add user management.</li></br>
+					<pre><code>
+		&lt;?php include ("./pluginsAdmin/view/monCompte.php"); ?&gt;
+					</code></pre></br>
+				<li>Replace the current file admin by the plugin file.</li></br>
+			</ol>
+		</div>
+		<div class="col-md-2 label label-success">
+			<h2>His role :</h2>
+		</div>
+
+			<div class="col-md-10"></div>
+					<div class="col-md-12">
+
+
+			</br>
+			<p>On first use, you will be asked to create a superadmin account, which will create the admin table (pseudo ( primary key ) , password, and email ), and the superadmin account.</p>
+			<p>When the connection will be made with the superadmin account, it will be possible to create new admin accounts, by clicking on the button of your ID.</p>
+			<p>On the login page there is the possibility in case of password loss, to create a new one with your ID. This new password will be sent to the mailbox associated with the pseudo .</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

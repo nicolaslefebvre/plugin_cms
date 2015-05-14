@@ -8,7 +8,7 @@
 
 	* Put file **pluginsAdmin** in the site root.
 
-	* Add the code'line in the file **view/admin/layout/bottom.inc**.
+	* Add the code line in the file **view/admin/layout/bottom.inc**.
 
    `<script type="text/javascript" src="pluginsAdmin/ajax/deconnexion.js"></script>`
 

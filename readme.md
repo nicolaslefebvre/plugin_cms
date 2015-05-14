@@ -11,9 +11,9 @@ Dans le site mycms :
 
     `<script type="text/javascript" src="pluginsAdmin/ajax/deconnexion.js"></script>`
 
-* Add the code'line in the file *view/back/layout/top.inc.php* in the menu (below *ajouter*) to add user management .
+* Add the code'line in the file *view/back/layout/top.inc.php* in the menu (below *ajouter*) to add user management.
 
-    `<?php include ("./pluginsAdmin/view/monCompte.php"); ?></script>
+    `<?php include ("./pluginsAdmin/view/monCompte.php"); ?></script>`
 
 * Replace the current file *admin* by the plugin file .
 

@@ -12,15 +12,19 @@
 
    `<script type="text/javascript" src="pluginsAdmin/ajax/deconnexion.js"></script>`
 
-	* Add the code'line in the file view/back/layout/top.inc.php in the menu (below *ajouter*) to add user management.
+	* Add the code line in the file view/back/layout/top.inc.php in the menu (below *ajouter*) to add user management.
 
    `<?php include ("./pluginsAdmin/view/monCompte.php"); ?>`
 
 	* Replace the current file **admin** by the plugin file.
 
 
-2. His role :
+2. How to use it :
 
+	Go on the website mycms.
+	
+	At the end the url, add admin.php.
+	
 	On first use, you will be asked to create a superadmin account, which will create the admin table (pseudo ( primary key ) , password, and email ), and the superadmin account.
 
 	When the connection will be made with the superadmin account, it will be possible to create new admin accounts, by clicking on the button of your ID.

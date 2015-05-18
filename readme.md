@@ -23,7 +23,7 @@
 
 	Go on the website mycms.
 	
-	At the end the url, add admin.php.
+	At the end of the url, add admin.php.
 	
 	On first use, you will be asked to create a superadmin account, which will create the admin table (pseudo ( primary key ) , password, and email ), and the superadmin account.
 
